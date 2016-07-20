@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="scripts/app.js"></script>
+    <title>To Do List</title>
+</head>
+
+<body ng-app="todoApp">
+  <h1>To Do List</h1>
+    <div ng-controller="listCtrl">
+        <input type="text" ng-model="chore" name="name" value="">
+        <button ng-click="addChore()" type="button" name="button">Add to List!</button>
+        <ul>
+            <li ng-repeat="toDo in toDos | filter:filterList">{{toDo | uppercase}}</li>
+        </ul>
+<input type="text" ng-model="filterList" name="name" value="" placeholder="search">
+    </div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+* {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 18px;
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+input, button {
+  width: 75%;
+  display: block;
+  margin: 10px;
+}
+
+input:active {
+  background-color: #ffc40d;
+}
