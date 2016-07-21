@@ -1,6 +1,7 @@
 * {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 18px;
+  color: #4C5B5C;
   width: 95%;
   margin: auto;
   padding-top: 10px;
@@ -18,4 +19,29 @@ input, button {
 
 input:active {
   background-color: #ffc40d;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 10px;
+}
+a:hover {
+  color: #3891A6;
+}
+.delete {
+  color: #E5625E;
+}
+.edit {
+  color: #ffc40d;
+}
+.finished {
+  color: #62C370;
+}
+.done {
+  color: #999999;
+  text-decoration: line-through;
+}
+#actions {
+  display: inline;
+  padding-left: 15px;   
 }
