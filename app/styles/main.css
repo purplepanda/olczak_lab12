@@ -1,41 +1,46 @@
 * {
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 18px;
-  color: #4C5B5C;
+  color: #343C3D;
   width: 95%;
+  max-width: 1100px;
   margin: auto;
   padding-top: 10px;
 }
-
+#main {
+  border: 1px dashed #343C3D;
+  padding: 25px;
+}
 h1 {
   font-size: 2em;
+  text-align: center;
 }
-
 input, button {
-  width: 75%;
+  width: 90%;
   display: block;
-  margin: 10px;
+  margin: 10px auto;
+  text-align: center;
 }
-
-input:active {
-  background-color: #ffc40d;
+li {
+  list-style-type: none;
+  min-width: 500px;
 }
-
 a {
   text-decoration: none;
   padding-left: 10px;
+  font-size: 0.75em;
 }
 a:hover {
-  color: #3891A6;
+  color: #218DA5;
 }
 .delete {
-  color: #E5625E;
+  color: #BF4F42;
 }
 .edit {
-  color: #ffc40d;
+  color: #FFC64C;
 }
 .finished {
-  color: #62C370;
+  color: #47B262;
 }
 .done {
   color: #999999;
@@ -43,5 +48,5 @@ a:hover {
 }
 #actions {
   display: inline;
-  padding-left: 15px;   
+  padding-left: 10px;
 }
